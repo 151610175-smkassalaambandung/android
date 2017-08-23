@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_timing_belt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.TimingBelt">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n TIMING BELT \n"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:background="@drawable/timingbelt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:text="\n        Fungsi timing belt adalah untuk memutar camshaft (atau disebut noken as) yang berperan untuk membuka dan menutup valve (klep) pada ruang pembakaran dengan tepat timingnya.\n       Dan secara fungsi ada 2 macam klep yaitu, klep intake yang berfungsi untuk jalur masuk oksigen dan bahan bakar (bensin) ke dalam ruang pembakaran dan satu lagi adalah klep exhaust yang berfungsi untuk membuang sisa pembakaran. Kedua klep tersebut digerakan oleh noken as yang berputar, dan tugas timing belt adalah untuk memutar noken as tersebut."
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_oil_pan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.OilPan">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n OIL PAN \n"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:background="@drawable/oilpan"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:text="\n        Fungsi dari Oil Pan (bak oli) adalah untuk menampung oli mesin untuk pelumasan. Bak oli ini diberi packing atau perpak yang bertujuan agar tidak terjadi kebocoran, oil pan ini dibautkan dengan blok silinder. Bak oli akan menutupi bagian bawah dari blok silinder, yang terdiri dari poros engkol dan komponen lainnya.\n       Bahan dasar untuk membuat bak oli ini adalah baja, oil pan diberi separator (penyekat) yang berguna agar permukaan oli tetap rata pada saat kendaraan di posisi miring. Bila tidak ada separatornya, maka permukaan oli tidak rata dan bisa jadi pompa oli tidak menyentuh oli. Sehingga oli tidak naik dan melumasi komponen mesin yang berada diatasnya."
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_komponen"
+    android:background="@drawable/bc"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.Komponen">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:text="\nPILIH KOMPONEN\n"
+            android:textSize="15pt"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/img1"
+            android:background="@drawable/blockk"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+        <ImageButton
+            android:id="@+id/img2"
+            android:background="@drawable/pistonn"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img3"
+            android:background="@drawable/ringpistonn"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img4"
+            android:background="@drawable/conrodd"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img5"
+            android:background="@drawable/crankshaftt"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img6"
+            android:background="@drawable/bearingg"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img7"
+            android:background="@drawable/flywheell"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img8"
+            android:background="@drawable/rockerarmm"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img9"
+            android:background="@drawable/camshaftt"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img10"
+            android:background="@drawable/oilpann"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img11"
+            android:background="@drawable/pistonpinn"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img12"
+            android:background="@drawable/timingbeltt"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+        <ImageButton
+            android:id="@+id/img13"
+            android:background="@drawable/cylinderheadd"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+
+
+    </LinearLayout>
+
+</ScrollView>

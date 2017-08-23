@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blok_silinder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.BlokSilinder">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n BLOK SILINDER \n"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/bloksilinder"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="\n      Blok silinder (cylinder block) merupakan bentuk dasar dari pada suatu mesin. dan pada blok silinder ini terdapat beberapa buah silinder. \n     Blok silinder biasanya terbuat dari Cast Iron, tetapi belakangan ini banyak juga yang terbuat dari paduan alumunium dengan maksud mengurangi berat serta menambah panas radiasi.\n  Blok silinder merupakan rumah dari mekanisme engkol, pada blok silinder juga terdapat silinder yang digunakan piston untuk naik turun ketika mesin bekerja.\n   Secara garis besarnya blok silinder atau Cylinder blog fungsinya adalah :\na. Sebagai kedudukan silinder dan kepala silinder.
+\nb. Sebagai rumah mekanisme engkol (poros engkol, con rod, piston dll)
+\nc. Tempat terjadinya proses langkah langkah pembakaran
+\nd. Didalamnya terdapat silinder yang berfungsi sebagai tempat piston naik turun untuk menghasilkan langkah usaha,\n
+    Pada saat over haul, ada beberapa yang harus diperiksa pada block silinder ini seperti kelurusan blok silinder, diameter silinder, kondisi silinder secara visual, dan lain sebagainya.\n   Blok silinder sebagai rumah dari mekanisme engkol, dimana mekanisme engkol tersebut terdiri dari berbagai macam komponen seperti :
+\n- poros engkol
+\n- fly wheel
+\n- piston
+\n- conecting rod
+\n- bantalan-bantalan poros engkol
+\n- dan lain sebagainya"
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+    </LinearLayout>
+
+</ScrollView>

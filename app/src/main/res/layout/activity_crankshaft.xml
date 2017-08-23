@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_crankshaft"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.Crankshaft">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n CRANKSHAFT \n"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/crankshaft"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:text="\n        Crankshaft / Poros engkol menjadi suatu komponen utama dalam suatu mesin pembakaran dalam. Crankshaft menjadi pusat poros dari setiap gerakan piston. Pada umumnya crankshaft berbahan besi cor karena harus dapat menampung momen inersia yang dihasilkan oleh gerakan naik turun piston. Sehingga fungsi utama dari crankshaft adalah MENGUBAH gerakan naik turun yang dihasilkan oleh piston menjadi gerakan memutar yang nantinya akan diteruskan ke transmisi. Crankshaft harus terbuat dari bahan yang kuat dan mampu menahan beban atau momen yang kuat karena crankshaft harus menerima putaran mesin yang tinggi.\n        Posisi crankshaft berada antara blok mesin bagian bawah dengan oil pan. Crankshaft menjadi pusat dari putaran mesin. Putaran dari Crankshaft biasa diteruskan lagi tidak hanya ke transmisi, namun juga ke camshaft lewat timing belt atau timing gear atau timing chain karena memiliki putaran timing yang serupa dengan pembukaan valve. Selain itu putaran dari crankshaft juga biasa diteruskan untuk memutar kompresor AC dan juga pompa power steering. Namun pada mobil-mobil canggih saat ini, biasanya kompresor AC dan pompa power steering mendapat tenaga dari listrik yang dihasilkan mobil, sehingga tidak membebani (mengurangi) tenaga mesin.\n        Poros engkol terpasang dibagian bawah pada blok silinder. Poros engkol disebut juga dengan crank shaft. Pada mesin, crank shaft atau poros engkol ini memiliki kegunaan yang sangat vital. Poros engkol berfungsi untuk merubah gerak naik turun piston menjadi gerak putar dengan perantara conecting rod, gerak ini pada akhirnya juga menggerakkan roda penerus (fly wheel). Piston menerima tenaga hasil pembakaran, dan tenaga ini akan diteruskan oleh connecting rod yang selanjutnya akan dirubah menjadi gerak putar oleh poros engkol. Tenaga yang sudah dirubah menjadi gerak putar ini, otomatis akan menggerakkan fly wheel. Karena fly wheel berhubungan langsung dengan poros engkol ini. Bagian batang torak yang berhubungan dengan piston adalah small end. Sedangkan bagian batang torak (connecting rod) yang berhubungan dengan poros engkol disebut dengan big end."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

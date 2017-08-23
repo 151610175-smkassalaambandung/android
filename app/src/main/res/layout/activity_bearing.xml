@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bearing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.Bearing">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n BEARING \n"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:background="@drawable/bearing"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:text="\n        Bearing dalam Bahasa Indonesia berarti bantalan. Dalam ilmu mekanika bearing adalah sebuah elemen mesin yang berfungsi untuk membatasi gerak relatif antara dua atau lebih komponen mesin agar selalu bergerak pada arah yang diinginkan. Bearing menjaga poros (shaft) agar selalu berputar terhadap sumbu porosnya, atau juga menjaga suatu komponen yang bergerak linier agar selalu berada pada jalurnya.\n     Bantalan merupakan salah satu bagian dari elemen mesin yang memegang peranan cukup penting karena fungsi dari bantalan yaitu untuk menumpu sebuah poros agar poros dapat berputar tanpa mengalami gesekan yang berlebihan. Bantalan harus cukup kuat untuk memungkinkan poros serta elemen mesin lainnya bekerja dengan baik.\n     Bearing atau laher adalah komponen sebagai bantalan untuk membantu mengurangi gesekan peralatan berputar pada poros/as. Bearing atau laher ini biasanya berbentuk bulat. Bearing di mobil dipasang pada as roda dan ditempat-tempat yang berputar lainnya.\n        Tujuan dari bantaran balock untuk mengurangi gesekan rotasi dan mendukung radial dan aksial beban."
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

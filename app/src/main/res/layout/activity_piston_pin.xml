@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_piston_pin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.PistonPin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n PISTON PIN \n"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:background="@drawable/pistonpin"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:text="\n        Fungsi pin piston adalah menghubungkan piston dengan bagian ujung yang kecil (small end) pada batang piston (connecting rod) melalui bushing dan meneruskan tekanan pembakaran yang diterima piston ke batang piston. \n        Pin piston umumnya terbuat dari baja nikel. Diameternya dibuat besar agar luas bidang gesek menjadi besar dan tahan terhadap keausan. Selain besar, pin piston juga dibuat berlubang agar lebih ringan sehingga berat keseluruhan piston dapat dibuat lebih ringan dan mudah untuk membalansnya.\n      Untuk mencegah keluarnya pin piston dari lubangnya, maka penempatan pin piston pada piston ada beberapa macam cara, yaitu; (1) tipe fixed, (2) tipe semi floating, dan (3) tipe full floating. Pada model full floating, pin piston tidak terikat pada bushing piston atau batang piston, sehingga dapat bergerak bebas.  \n        Pada kedua ujung pin piston ditahan oleh 2 buah pegas pengunci (snap ring). Pada model semi floating pin piston dipasang dan dibaut pada batang piston untuk mencegah lepas keluar atau bagian ujung yang kecil terbagi dalam dua bagian dan pena piston dibaut antara keduanya. Pada model fixed, salah satu ujung pin pistonnya dibautkan pada piston."
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>

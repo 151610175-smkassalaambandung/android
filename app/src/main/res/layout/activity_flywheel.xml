@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_flywheel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.Flywheel">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n FLYWHEEL \n"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:background="@drawable/flywheel"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:text="\n        Fly wheel atau yang biasa disebut dengan roda gila berfungsi untuk menyimpan tenaga putar (inertia) yang dihasilkan mesin pada langkah usaha, sehingga poros engkol (crank shaft) dapat tetap berputar terus menerus pada langkah langkah lainnya. Hal ini mengakibatkan mesin berputar dengan lembut yang diakibatkan getaran tenaga yang dihasilkan.\n        Roda gila terbuat dari bahan baja tuang dengan mutu tinggi yang diikat oleh baut pada bagian belakang poros engkol pada kendaraan yang menggunakan transmisi manual. Roda gila dilengkapi dengan ring gear yang dipasangkan dibagian luarnya, fungsinya untuk perkaitan dengan gigi pinion dari motor starter. Sehingga roda gila juga berfungsi untuk menerima tenaga putar dari motor starter, dan kemudian meneruskannya ke poros engkol, sehingga poros engkol dapat berputar danmesin dapat mulai hidup. Pada kendaraan dengan transmisi otomatis, sebagai pengganti roda gila adalah torgue converter.\n      Roda gila atau yang juga disebut Fly wheel merupakan komponen dalam mesin (mobil) baik diesel maupun bensin. Fungsi Roda Gila atau Fly wheel adalah sebuah masa yang berputar dan dipergunakan sebagai penyimpan tenaga di dalam mesin. Karena dengan adanya Roda Gila putaran mesin menjadi selaras dan rata. Dan fungsi lain dari Roda gila sebagai tempat pemasangan kopling. Kopling terpasang pada roda gila berikut tempurung yang seputar sisi bautnya pada roda gila. Permukaan salah satu roda gila dibubut sangat halus. Jadi disamping sebagai penyeimbang tenaga seperti tersebut di atas juga sebagi tempat pemasangan kopling untuk meneruskan atau menyalurkan tenaga dari mesin ke poros gardan.\n      Bagian tepi roda gila biasanya memiliki cincin bergerigi untuk pertautan dengan roda gigi motor starter pada saat motor dihidupkan. Karena itu tanpa roda gila hampir tidak mungkin menghidupkan mesin. Kalaupun hidup, putaran mesin menjadi tidak teratur. Bobot yang dimiliki roda gila inilah yang menyebabkan putaran poros engkol mantap dan halus. Bobot roda gila pada mesin mobil penumpang berkisar 7.5-50 KG.\n      Flywheel (Roda Gila) adalah perangkat mekanik berputar yang digunakan untuk menyimpan energi rotasi. Flywheel memiliki momen inersia yang signifikan, dan dengan demikian menahan perubahan kecepatan rotasi. Jumlah energi yang tersimpan dalam flywheel adalah sebanding dengan kuadrat kecepatan rotasi. Energi ditransfer ke flywheel dengan menggunakan torsi, sehingga meningkatkan kecepatan rotasi, dan karenanya energi dapat tersimpan. Sebaliknya, flywheel melepaskan energi yang tersimpan dengan melakukan torsi ke beban mekanik, sehingga mengurangi kecepatan rotasi."
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

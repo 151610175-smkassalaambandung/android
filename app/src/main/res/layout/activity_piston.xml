@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_piston"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.Piston">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n PISTON \n"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/piston"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:text="\n      Piston adalah komponen mesin yang membentuk ruang bakar bersama – sama dengan silinder blok dan silinder head\n     Piston jugalah yang melakukan gerakan naik turun untuk melakukan siklus kerja mesin, serta piston harus mampu meneruskan tenaga hasil pembakaran ke crankshaft. Jadi dapat kita lihat bahwa piston memiliki fungsi yang sangat penting dalam melakukan siklus kerja mesin dan dalam menghasilkan tenaga pembakaran\n    Untuknya maka piston harus memiliki syarat – syarat sebagai berikut:\n - Ringan, agar mudah bagi mesin dalam mencapai putaran tinggi. Jika konstruksi piston terlalu berat , maka sulit bagi mesin untuk mencapai putaran tinggi, sehingga akselerasi sepeda motor atau mobil menjadi sangat lambat.. Atau bahasa mudahnya, sepeda motor atau mobil lambat untuk cepat mencapai kecepatan tinggi walau gas sudah ditarik.\n - Tahan terhadap tekanan ledakan karena hasil pembakaran. Pada saat langkah usaha , bensin dan udara terbakar oleh percikan bunga api listrik dari busi. Hasil pembakaran ini akan menimbulkan ledakan dan tekanan yang sangat kuat di dalam ruang bakar, tak terkecuali piston menerima ledakan dan tekanan dari hasil pembakaran tersebut.. Karenanya selain piston harus ringan tetapi piston juga harus kuat dalam menahan ledakan dan tekanan hasil pembakaran untuk diteruskan menggerakkan poros engkol.\n - Tahan terhadap pemuaian. Pembakaran campuran bensin dan udara dalam ruang bakar akan menimbulkan panas, suhu di daerah ruang bakar akan naik sangat tinggi. Seperti telah kita ketahui bahwa dengan naiknya suhu , maka logam akan mengalami perubahan bentuk atau memuai. Piston yang terbuat dari logam – logam khusus pun akan mengalami pemuiaan yang tidak sedikit. Jika pemuaian yang dialami piston berlebihan maka akan membuat piston terkunci atau ngancing ke dinding silinder blok, sehingga piston akan berhenti bekerja naik turun dalam silinder , sehingga bisa dikatakan bahwa mesin telah mati dengan berhentinya piston dalam melakukan gerakan naik turun. "
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

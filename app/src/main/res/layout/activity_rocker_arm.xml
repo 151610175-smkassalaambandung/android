@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rocker_arm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.RockerArm">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n ROCKER ARM \n"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:background="@drawable/rockerarm"
+            android:layout_gravity="center"
+            android:layout_width="400dp"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:text="\n        Rocker arm atau temlar, pelatuk klep pada motor berfungsi sebagai penghubung antara camshaft dengan valve sebagai pengatur naik turunnya (buka-tutup) klep. Rocker arm harus dibuat dengan kepresisian yang tinggi dan menggunakan material yang tepat sehingga dapat membuat pergerakan antara camshaft dan valve lebih presisi, sehingga supply bahan bakar dari carburetor ke ruang bakar menjadi efisien.\n     Cara kerja dari Rocker arm digerakkan oleh camshaft sehingga dapat menekan valve dengan sempurna. Pergerakan rocker arm oleh camshaft terjadi karena pergesekan/benturan antara permukaan camshaft dengan permukaan rocker arm."
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

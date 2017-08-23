@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info"
+    android:orientation="vertical"
+    android:background="@drawable/bc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.info">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\nProfil Pembuat\n"
+            android:textSize="20pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/ahmad"
+            android:layout_gravity="center"
+            android:layout_width="500dp"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:text="\n\n Nama : Ahmad Muhaimin \n Kelas : XII RPL 1 \n Sekolah : SMK Assalaam Bandung"
+            android:textSize="10pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

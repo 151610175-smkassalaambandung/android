@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cylinder_head"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assalaam.calculator.id.projectassalaam.CylinderHead">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n CYLINDER HEAD \n"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:background="@drawable/cylinderhead"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:text="\n        Kepala silinder (Cylinder head) adalah salah satu komponen utama mesin yang dipasangkan pada blok silinder dan diikat menggunakan baut. Kepala silinder harus tahan terhadap temperatur dan tekanan yang tinggi selama engine bekerja. Oleh sebab itu umumnya kepala silinder dibuat dari besi tuang. \n        Pada saat ini banyak engine yang kepala silindernya terbuat dari paduan aluminium. Kepala silinder yang terbuat dari paduan Aluminium memiliki kemampuan pendinginan lebih besar di Banding dengan yang terbuat dari besi tuang.\n      Fungsi dari kepala silinder diantaranya :
+\n 1.Sebagai tempat pembakaran (ruang bakar)
+\n 2.Sebagai tempat kelengkapan mekanisme katup
+\n 3.Saluran pemasukan
+\n 4.Saluran pembuangan
+\n 5.Tempat pemasangan busi.
+\n 6.Tempat water jacket (Mantel pendingin) "
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>
